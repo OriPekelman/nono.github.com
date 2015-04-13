@@ -13,9 +13,9 @@ l'exécution asynchrone des plugins, ce qui leur permet de faire des
 traitements longs sans bloquer complètement l'éditeur.
 
 Plus récemment, [@tarruda](https://github.com/tarruda) a ajouté [la prise en
-charge des vraies couleurs](https://github.com/neovim/neovim/pull/2198) dans
+charge des vraies couleurs](https://githubhcom/neovim/neovim/pull/2198) dans
 Neovim. Pour les terminaux qui supportent cette possibilité, il est maintenant
-possible d'utiliser des couleurs avec des code hexadécimaux, sans se
+possible d'utiliser des couleurs avec des codes hexadécimaux, sans se
 restreindre à une palette de 16, 88 ou 256 couleurs comme c'est trop souvent
 le cas. Cela devrait notamment plaire aux créateurs de thèmes, vu que ceux-ci
 respecteront mieux les couleurs désormais.
@@ -26,7 +26,7 @@ Grâce à la [libvterm](http://www.leonerd.org.uk/code/libvterm/), il est
 possible de lancer un terminal dans Neovim, avec `:terminal` par exemple. Cela
 créée un buffer en mode édition. Il est alors possible d'utiliser ce terminal
 pour faire différentes actions (comme un terminal normal), mais également de
-profiter des autres modes de vim. Au hasard, la sélection rectangulaire peut
+profiter des autres modes de Vim. Au hasard, la sélection rectangulaire peut
 être bien pratique !
 
 Pour sortir du mode édition, il faut utiliser la combinaison `<C-\> <C-n>`. Ce
@@ -44,7 +44,7 @@ Cette fonctionnalité va ouvrir des portes aux développeurs de plugins, pour
 intégrer plus facilement Neovim et des outils externes. À titre d'exemple,
 il existe un [plugin pour
 gdb](https://github.com/tarruda/neovim/blob/refactor-job-api-3/contrib/neovim_gdb/neovim_gdb.vim),
-qui permet depuis la vue terminal de Neovim de contrôler le déboggeur et
+qui permet depuis la vue terminal de Neovim de contrôler le débogueur et
 d'avoir quelques fonctionnalités bien pratiques :
 
 - Sauter dans le fichier / ligne quand gdb atteint un point d'arrêt
